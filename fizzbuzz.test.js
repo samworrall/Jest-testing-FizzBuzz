@@ -19,3 +19,7 @@ test('Returns fizz', () => {
 test('Returns buzz', () => {
   expect(fizzbuzz(10)).toEqual('buzz');
 });
+
+test('Returns 11', () => {
+  expect(fizzbuzz(11)).toEqual(11);
+});
